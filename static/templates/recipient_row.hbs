@@ -50,22 +50,12 @@
                     <span class="topic_edit_form" id="{{id}}"></span>
                 </span>
 
-<<<<<<< HEAD
                 <i class="fa fa-bell-slash on_hover_topic_mute recipient_bar_icon" data-stream-id="{{stream_id}}" data-topic-name="{{topic}}" title="{{t 'Mute topic' }} (M)" role="button" tabindex="0" aria-label="{{t 'Mute topic' }} (M)"></i>
-<<<<<<< HEAD
-=======
                 
                 {{#if muted_and_sentbyme}}
                  <span class="muted_and_sentbyme" tabindex="0">(MUTED)</span>
                 {{/if}}
 
->>>>>>> msg_recipient_bar: Add spacing between recipient_bar icons.
-=======
-                <i class="fa fa-bell-slash on_hover_topic_mute" data-stream-id="{{stream_id}}" data-topic-name="{{topic}}" title="{{t 'Mute topic' }} (M)" role="button" tabindex="0" aria-label="{{t 'Mute topic' }} (M)"></i>
-                {{#if muted_and_sentbyme}}
-                 <span class="muted_and_sentbyme" tabindex="0">(MUTED)</span>
-                {{/if}}
->>>>>>> f71626bc563791ba1ddf10b3c747ec2d98036275
                 <span class="recipient_row_date {{#if group_date_divider_html}}{{else}}hide-date{{/if}}">{{{date}}}</span>
             </span>
         </div>
